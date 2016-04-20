@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+        .text {
+            text-align: right;
+        }
+
+        #button {
+            text-align: center;
+            background-color: #E3E4FA;
+        }
+        table{
+          border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#" method="post">
+        <table border="1px">
+            <colgroup>
+                <col width="150px" />
+                <col width="100px" />
+                <col width="80px" />
+                <col width="80px" />
+            </colgroup>
+
+            <tr>
+                <th class="text">
+                    <label for="Last Name">Last Name</label>
+                </th>
+                <td colspan="3">
+                    <input type="text" id="Last Name" name="Last name">
+                </td>
+            </tr>
+            <tr>
+                <th class="text">
+                    <label for="First Name">First Name</label>
+                </th>
+                <td colspan="3">
+                    <input type="text" id="First Name" name="First name">
+                </td>
+            </tr>
+            <tr>
+                <th class="text">
+                    <label for="Address">Address</label>
+                </th>
+                <td colspan="3">
+                    <textarea id="Address" name="Adress" rows="4" cols="30"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <th class="text">
+                    <label for="City">City</label>
+                </th>
+                <td>
+                    <input type="text" id="City" name="City">
+                </td>
+                <th class="text">
+                    <label for="State">State</label>
+                </th>
+                <td>
+                    <input type="text" id="State" size="2" name="State">
+                </td>
+            </tr>
+            <tr>
+                <th class="text">
+                    <label for="Zip Code">Zip/Postal Code</label>
+                </th>
+                <td colspan="3">
+                    <input type="text" id="Zip Code" size="4" name="Zip code">
+                </td>
+            </tr>
+            <tr>
+                <th class="text">
+                    <label for="Country">Country</label>
+                </th>
+                <td colspan="3">
+                    <select id="Country" name="Country">
+                        <option value="AL">Albania</option>
+                        <option value="DZ">Algeria</option>
+                        <option value="AS">American Samoa</option>
+                        <option value="AD">Andorra</option>
+                        <option value="AO">Angola</option>
+                        <option value="AI">Anguilla</option>
+                        <option value="AQ">Antarctica</option>
+                        <option value="AG">Antigua and Barbuda</option>
+                        <option value="AR">Argentina</option>
+                        <option value="AM">Armenia</option>
+                        <option value="BV">Bouvet Island</option>
+                        <option value="BR">Brazil</option>
+                        <option value="IO">British Indian Ocean Territory</option>
+                        <option value="BN">Brunei Darussalam</option>
+                        <option value="BG">Bulgaria</option>
+                        <option value="BF">Burkina Faso</option>
+                        <option value="BI">Burundi</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th class="text">
+                    <label for="Phone">Phone(country code, area code,number)</label>
+                </th>
+                <td colspan="3">
+                    (+
+                    <input type="tel" size="4">)
+                    <input type="tel" size="4">
+                    <input type="tel">
+                </td>
+            </tr>
+            <tr>
+                <th class="text">
+                    <label for="Email">Email</label>
+                </th>
+                <td colspan="3">
+                    <input type="email" id="Email" name="email">
+                </td>
+            </tr>
+            <tr>
+                <th class="text">
+                    <label for="Birthday">Birth date</label>
+                </th>
+                <td colspan="3">
+                    Month
+                    <input type="text" id="birthday" size="1"> Day
+                    <input type="text" size="1"> Year(4digit)
+                    <input type="text" size="2">
+                </td>
+            </tr>
+            <tr>
+                <th class="text">
+                    <label for="Gender">Gender</label>
+                </th>
+                <td colspan="3">
+                    <select name="Gender" id="Gender">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th class="text">
+                    <label for="Starting date">Starting date</label>
+                </th>
+                <td colspan="3">
+                    <input type="radio" name="semestar" value="Spring 2006" id="spring 2006" checked>
+                    <label for="spring 2006">Spring 2006</label>
+
+                    <input type="radio" name="semestar" value="Summer 2006" id="summer 2006">
+                    <label for="summer 2006">Summer 2006</label>
+                </td>
+                <tr>
+                    <th class="text">
+                        <label for="text">Comments/Questions</label>
+                    </th>
+                    <td colspan="3">
+                        <textarea name="Comments" rows="8" cols="40"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" id="button">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Clear This Form">
+                    </td>
+                </tr>
+    </form>
+    </table>
+</body>
+</html>
