@@ -1,25 +1,26 @@
-HTML Tables
-===========
+HTML Forms and Frames
+=====================
 
-### Problem 1. HTML Tables
-*	Create Web Pages like the following using tables:
+### Problem 1. Registration form
+*	Create a Web form that looks like this sample:
 
-![picture1](https://cloud.githubusercontent.com/assets/3619393/7002979/ae5d2178-dc5b-11e4-8a15-2d8a574ba5b9.png)
+![picture1](https://cloud.githubusercontent.com/assets/3619393/7003233/b2d1d68c-dc5f-11e4-8758-72d6af6d5cc0.png)
 
-![picture2](https://cloud.githubusercontent.com/assets/3619393/7002980/afb04c76-dc5b-11e4-917f-4e8fe696cf57.png)
+### Problem 2. University grid
+*	Create the following using tables and forms:
 
-### Problem 2. HTML Form
-*	Create a Web Page like the following using forms:
+![picture2](https://cloud.githubusercontent.com/assets/3619393/7003232/b2d14942-dc5f-11e4-9cff-abf76d3f3e14.png)
 
-![picture3](https://cloud.githubusercontent.com/assets/3619393/7002981/b2a274b8-dc5b-11e4-9868-68675b7d328e.png)
+### Problem 3. Notebook store
+*	Create the following HTML Page:
 
-### Problem 3. Calculator
-*	Create a Calculator-like table. You should use a HTML 5 form for the Calculator.
-	*	Buttons for all the numbers and operators (+, -, etc.)
-	*	Textbox for the result
+_Hint: Use Fieldsets and Nested tables_
 	
-![picture4](https://cloud.githubusercontent.com/assets/3619393/7002982/b3d1f3c2-dc5b-11e4-89ed-a3b2e52f32b9.png)
+![picture3](https://cloud.githubusercontent.com/assets/3619393/7003235/b2d26052-dc5f-11e4-88c4-de356e7fcc2f.png)
+		
+### Problem 4.* Grid component
+*	Construct the following Grid component:
+	*	Try to make a HTML page, that looks just like the example
+	*	CSS is required
 
-_Note: Do not make the same styles as the example_
-
-_Note: Do not implement functionalities_
+![picture4](https://cloud.githubusercontent.com/assets/3619393/7003234/b2d1eb4a-dc5f-11e4-8844-f1462f705ddf.png)
